@@ -1,9 +1,17 @@
 .container{
-    margin: auto;
-    padding: 50px;
+    margin: 0 auto;
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    --pad: clamp(12px, 3vw, 50px);
+    padding: var(--pad);
+    --tile-size: min(
+        100px,
+        calc((100vw - (2 * var(--pad))) / 18),
+        calc((100vh - (2 * var(--pad))) / 10)
+    );
+    grid-template-columns: repeat(18, var(--tile-size));
+    grid-template-rows: repeat(10, var(--tile-size));
+    max-width: 100vw;
+    max-height: 100vh;
 }
 #c1{
     grid-row: 1;
