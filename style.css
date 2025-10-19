@@ -78,3 +78,70 @@ body{
 .up{
     background-color: #cbcbcb;
 }
+
+/* Dialog styles */
+dialog{
+    width: min(640px, 92vw);
+    border: none;
+    border-radius: 12px;
+    padding: 16px 18px;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.3);
+    background: #fff;
+    color: #111;
+}
+dialog::backdrop{
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(2px);
+}
+.dialog-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+.dialog-header h2{
+    font-size: 1.25rem;
+    margin: 0;
+}
+.close-btn{
+    appearance: none;
+    background: transparent;
+    border: none;
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+.close-btn:hover{
+    background: rgba(0,0,0,0.06);
+}
+.dialog-content{
+    font-size: 0.95rem;
+}
+.element-data{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 16px;
+    row-gap: 8px;
+    margin: 12px 0 4px;
+}
+.element-data dt{
+    font-weight: 600;
+}
+.element-data dd{
+    margin: 0;
+}
+/* Dialog content tweaks */
+.dialog-content p{
+    margin: 0 0 8px;
+}
+.element-data dd,
+.element-data dd a{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+.element-data dd{
+    margin: 0;
+}
