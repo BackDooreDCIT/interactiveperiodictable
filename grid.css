@@ -3,7 +3,6 @@
     display: grid;
     --pad: clamp(12px, 3vw, 50px);
     padding: var(--pad);
-    overflow: visible;
     --tile-size: min(
         100px,
         calc((100vw - (2 * var(--pad))) / 18),
