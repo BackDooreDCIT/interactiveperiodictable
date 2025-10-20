@@ -11,7 +11,7 @@
 - Responsive table
 - Hovering/Selection effects and animations
 
-Details on each elements such as:
+**Details on each elements such as:**
 
 - Summary/Description
 - Atomic Number
@@ -20,10 +20,10 @@ Details on each elements such as:
 - Appearance
 - Melting point/Boiling point
 
-and **[more](FEATURES.md)**!
+and ***[more](FEATURES.md)***!
 
 # Personal notes
 
-This is just a tiny little project I made out of my own interests, and mainly for practicing Hypertext Markup Language 5 (HTML), Cascading Style Sheets (CSS), and for me to learn Javascript for fetching API.
+This is just a tiny little project I made out of my own interests, and mainly for practicing [Hypertext Markup Language 5 (HTML)](https://www.w3.org/html/), [Cascading Style Sheets (CSS)](https://www.w3schools.com/css/), and for me to learn [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for fetching API.
 
 *You’re free to use this periodic table for your own uses, although please credit the original work.*
