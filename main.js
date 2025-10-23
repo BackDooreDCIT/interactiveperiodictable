@@ -32,8 +32,8 @@
   ];
 
   const API = {
-    url: '/api/periodictable',
-    headers: { 'accept': 'application/json' },
+    url: 'https://api.apiverve.com/v1/periodictable',
+    headers: { 'x-api-key': '29fa188b-b540-4af2-bf0f-b7c7591c3850', 'accept': 'application/json' },
   };
 
   function fmtNum(n, digits = 2) {
@@ -70,27 +70,14 @@
     const queries = [];
     if (symbol) queries.push(`symbol=${encodeURIComponent(symbol)}`);
     if (name) queries.push(`name=${encodeURIComponent(name)}`);
-    let lastErr = null;
     for (const q of queries) {
       const res = await fetch(`${API.url}?${q}`, { headers: API.headers });
       if (res.ok) {
         const json = await res.json();
         return json.data;
-      } else {
-        try {
-          const errJson = await res.json();
-          lastErr = new Error(`HTTP ${res.status}: ${errJson?.error || res.statusText || 'error'}`);
-        } catch (e) {
-          try {
-            const txt = await res.text();
-            lastErr = new Error(`HTTP ${res.status}: ${txt || res.statusText || 'error'}`);
-          } catch (_) {
-            lastErr = new Error(`HTTP ${res.status}: ${res.statusText || 'error'}`);
-          }
-        }
       }
     }
-    throw lastErr || new Error('No element found');
+    throw new Error('No element found');
   }
 
   const closeBtn = dialog.querySelector('.close-btn');
@@ -107,8 +94,8 @@
       const data = await fetchElement({ symbol, name });
       setFields(data);
     } catch (err) {
-      els.title.textContent = `Failed to load (${err.message}). Check API key and server.`;
-      console.error('Element fetch failed:', err);
+      els.title.textContent = 'Failed to load';
+      console.error(err);
     }
   });
 
