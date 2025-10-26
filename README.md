@@ -36,6 +36,6 @@ I'm planning on improving the readability and decreasing the complexity of the s
 
 # Personal notes
 
-This is just a tiny little project I made out of my own interests, and mainly for practicing [Hypertext Markup Language 5 (HTML)](https://www.w3.org/html/), [Cascading Style Sheets (CSS)](https://www.w3schools.com/css/), and for me to learn [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for fetching API.
+This is just a tiny little project I made out of my own interests, and mainly for practicing [Hypertext Markup Language 5 (HTML)](https://www.w3.org/html/), [Cascading Style Sheets (CSS)](https://www.w3schools.com/css/), and for me to learn [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for fetching API. (Also for my own uses because I can't remember the periodic table T-T)
 
-*You’re free to use this periodic table for your own uses, although please abide by the **GNU General Public License v3.0 (GPL v3)** license stated in this repository.*
+*You’re free to use this periodic table for your own uses, although please abide by the **[GNU General Public License v3.0 (GPL v3)](https://www.gnu.org/licenses/gpl-3.0.en.html)** license stated in this repository.*
