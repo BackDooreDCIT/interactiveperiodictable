@@ -38,4 +38,4 @@ I'm planning on improving the readability and decreasing the complexity of the s
 
 This is just a tiny little project I made out of my own interests, and mainly for practicing [Hypertext Markup Language 5 (HTML)](https://www.w3.org/html/), [Cascading Style Sheets (CSS)](https://www.w3schools.com/css/), and for me to learn [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for fetching API.
 
-*You’re free to use this periodic table for your own uses, although please credit the original work.*
+*You’re free to use this periodic table for your own uses, although please abide by the license stated in this repository.*
