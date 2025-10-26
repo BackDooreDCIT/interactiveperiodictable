@@ -23,6 +23,16 @@
 
 and ***[more](FEATURES.md)***!
 
+# Future Plans
+I'll be working & improving on the features that already exists, maybe even making some more quality of life features too if I feel like it.
+
+**For now, these are my plans:**
+
+- Enlarged & draggable table
+- Animations for element details dialog/popup
+
+I'm planning on improving the readability and decreasing the complexity of the source code by finding an appropriate **Javascript framework**. I'm still deciding whether to use Vue.js or React.js, I'll update this by the time I finally pick one to work with.
+
 # Personal notes
 
 This is just a tiny little project I made out of my own interests, and mainly for practicing [Hypertext Markup Language 5 (HTML)](https://www.w3.org/html/), [Cascading Style Sheets (CSS)](https://www.w3schools.com/css/), and for me to learn [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for fetching API.
