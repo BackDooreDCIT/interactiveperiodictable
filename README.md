@@ -32,7 +32,7 @@ I'll be working & improving on the features that already exists, maybe even maki
 - Animations for element details dialog/popup
 - Better UX/UI designs (maybe)
 
-I'm planning on improving the readability and decreasing the complexity of the source code by finding an appropriate **Javascript framework**. I'm still deciding whether to use Vue.js or React.js, I'll update this by the time I finally pick one to work with.
+I'm planning on improving the readability and decreasing the complexity of the source code by finding an appropriate **Javascript framework**. And after all the consideration, I've decided to use ***[Vue.js](https://vuejs.org/)*** as my Javascript framework, which I will be transferring to later in the future.
 
 # Personal notes
 
